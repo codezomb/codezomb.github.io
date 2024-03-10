@@ -1,0 +1,106 @@
+sidebar:
+    position: right
+
+    # Profile information
+    name: Michael Kelley
+    tagline: Software Engineer with expertise in SaaS development, DevOps, and team leadership 
+    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+
+    # Sidebar links
+    email: mike@codezombie.org
+    phone: (503) 576-1156
+    location: Salem, OR USA
+    linkedin: codezomb
+    github: codezomb
+
+    languages:
+      title: Languages
+      info:
+        - idiom: English
+          level: Native
+
+career-profile:
+    title: Summary
+    summary: |
+      Highly versatile and experienced software engineer with more than 15 years of experience writing code, building infrastructure, improving workflows, and managing teams for SaaS platforms. Proven track-record of success in designing, developing, and maintaining software systems to increase organizational productivity and performance while keeping operational costs down. Increasing team efficiency and happiness through mentorship, automation, and best practices.
+
+experiences:
+    title: Experience
+    info:
+      - role: Principal Software Engineer & Director of Engineering
+        time: 2019 - Present
+        company: Joann Fabrics
+        details: |
+          - Designed and developed a new client onboarding process, reducing client onboarding to 1 week, down from 6 months resulting in a 95% onboarding efficiency increase.
+          - Spearheaded charge on new microservice architecture by conducting analysis of current platform, facilitating meetings, and making all decisions, increasing performance optimization by 300%, and enabling client self-service and setup.
+          - Implemented automated testing workflows, documentation, coding standards, and best practices, reducing software issues getting into production by 100% and decreasing average feature release time by 50%.
+          - Designed and implemented a cloud-based development environment for the engineering team that reduced developer onboarding by 100%.
+          - Overhauled infrastructure increasing performance by 50% and reliability to 99.9%, and implemented docker driven development, reducing developer onboarding by 75% and overall developer satisfaction.
+          - Setup metrics, logging, and alerting via Datadog that effectively resulted in ability to scale up and down infrastructure to improve costs by 30%.
+
+      - role: Principal Software Engineer & Chief of Technology Officer 
+        time: 2014 - 2019
+        company: Everchron
+        details: |
+          - Designed and developed a SaaS platform to bring modern workflows and increased productivity to the litigation process for hundreds of law firms and thousands of users.
+          - Reduced feature development time by 100% through close collaboration with stakeholders to improve feature documentation and planning and implemented highly available cloud infrastructure on AWS in 4 separate countries.
+          - Setup metrics, logging, and alerting via Datadog and CloudWatch to track overall container, cluster, and node health, request metrics, and application performance, scaling up and down infrastructure to improve costs by $120k annually.
+
+      - role: Senior Software Engineer
+        time: 2013 - 2014
+        company: BeQuick
+        details: |
+          - Developed and designed JSON APIs as a backend for new mobile virtual network operator platform by determining best datasets, writing code and database queries, and optimization reducing average response times from 1 second to 300 milliseconds.
+          - Created common communication interface to be used between all the different network plugins that were to be implemented reducing code required to implement a new carrier by 75%.
+
+      - role: Senior Software Engineer & Chief Technology Officer
+        time: 2011 - 2013
+        company: 383 Studio
+        details: |
+          - Performed research and viability for new features used by 50 different construction firms, while working with stakeholders to design and implement new technologies that generated in 10 new clients.
+          - Ideated, innovated, and built platform from the ground up within 6 months, wrote iOS app that increased engagement and usability by 100%, designed infrastructure on AWS that reduced storage costs by 40%.
+
+      - role: Software Engineer
+        time: 2008 - 2010
+        company: Affinity Media
+        details: |
+          - Constructed desktop application and game plugin that collected data from World of Warcraft while over 500k users played the game and wrote code that parsed and sorted data into database website viewed by over 3MM users.
+          - Monitored database usage and provided query optimization improvements that resulted in 23% efficiency gain.
+      
+      - role: Software Engineer
+        time: 2006 - 2007
+        company: SIPphone Inc.
+        details: |
+          - Established and executed customer facing web-based marketing strategies, successfully increasing user count by 20% and implemented user interface for VOIP platform widely used by 10k users daily.
+          - Maintained website compatibility for over 20 different mobile device models increasing the target client base by over 50% and increased sales by 15%.
+      
+      - role: Linux System Administrator
+        time: 2005 - 2006
+        company: Technology Integration Group
+        details: |
+          - Administered automation and shell scripts that effectively reduced manual workloads by 30% and promptly implemented system monitoring and alerting that reduced outage time to response by 50%.
+
+skills:
+    title: Technical Skills
+    toolset:
+      - Ruby / Ruby on Rails
+      - PostgreSQL / MySQL
+      - Capybara / RSpec
+      - Elasticsearch
+      - Redis
+      - Javascript / Vue.js
+      - CSS / SCSS
+      - Shell Scripting
+      - Git / Github
+      - CI / CD
+      - Amazon Web Services
+      - Cloud Security
+      - Automation
+      - Terraform
+      - Linux
+      - Kubernetes
+      - Docker
+      - Helm
+
+footer: >
+    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>

@@ -1,0 +1,24 @@
+title: Resume | Michael Kelley
+url: 'http://localhost:4000'
+
+description: A beautiful Jekyll theme for creating resume
+theme_skin: ceramic
+
+# Sass/SCSS
+sass:
+  sass_dir: _sass
+  style: compressed
+
+# Build settings
+compress-site: yes
+
+encoding: "utf-8"
+compress_html:
+  clippings: all
+  ignore:
+    envs: development
+
+# Development Settings
+port: 4000
+host: 0.0.0.0
+safe: false
