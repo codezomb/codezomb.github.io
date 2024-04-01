@@ -3,7 +3,7 @@ sidebar:
 
     # Profile information
     name: Michael Kelley
-    tagline: Software Engineer with expertise in SaaS development, DevOps, and team leadership 
+    tagline: Software Engineer with expertise in SaaS development, DevOps, and team leadership
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
@@ -18,7 +18,7 @@ sidebar:
       info:
         - idiom: English
           level: Native
-    
+
     pdf: https://drive.google.com/open?id=1-AQ_ZJr-gEYk6zyLpgq6xcsCy3hVofpT&usp=drive_fs
 
 career-profile:
@@ -29,58 +29,67 @@ career-profile:
 experiences:
     title: Experience
     info:
-      - role: Principal Software Engineer & Director of Engineering
+      - role: Principal Software Engineer
         time: 2019 - Present
         company: Joann Fabrics
         details: |
-          - Designed and developed a new client onboarding process, reducing client onboarding to 1 week, down from 6 months resulting in a 95% onboarding efficiency increase.
-          - Spearheaded charge on new microservice architecture by conducting analysis of current platform, facilitating meetings, and making all decisions, increasing performance optimization by 300%, and enabling client self-service and setup.
-          - Implemented automated testing workflows, documentation, coding standards, and best practices, reducing software issues getting into production by 100% and decreasing average feature release time by 50%.
-          - Designed and implemented a cloud-based development environment for the engineering team that reduced developer onboarding by 100%.
-          - Overhauled infrastructure increasing performance by 50% and reliability to 99.9%, and implemented docker driven development, reducing developer onboarding by 75% and overall developer satisfaction.
-          - Setup metrics, logging, and alerting via Datadog that effectively resulted in ability to scale up and down infrastructure to improve costs by 30%.
+          -	Spearheaded charge on new microservice architecture resulting in improved scalability and performance by 300%.
+          -	Modernized AWS infrastructure with Kubernetes and Docker, improving platform reliability to 99.9%.
+          -	Enhanced client onboarding process reducing onboarding time to 1 week, down from 6 months.
+          -	Reduced production issues by 95% by introducing automation, testing, coding standards and best practices.
+          -	Rightsized infrastructure, reducing costs by $72k annually using metrics from Datadog and Prometheus.
+          -	Introduced revised development workflows and environment, lowering feature delivery time by 60%.
+          -	Managed a cross-functional team of 10 and ensured timely delivery of projects with 40% increased efficiency.
+          -	Directly liaised with clients and tailored solutions according to their needs resulting in a 95% satisfaction rate.
 
-      - role: Principal Software Engineer & Chief of Technology Officer 
+      - role: Principal Software Engineer
         time: 2014 - 2019
         company: Everchron
         details: |
-          - Designed and developed a SaaS platform to bring modern workflows and increased productivity to the litigation process for hundreds of law firms and thousands of users.
-          - Reduced feature development time by 100% through close collaboration with stakeholders to improve feature documentation and planning and implemented highly available cloud infrastructure on AWS in 4 separate countries.
-          - Setup metrics, logging, and alerting via Datadog and CloudWatch to track overall container, cluster, and node health, request metrics, and application performance, scaling up and down infrastructure to improve costs by $120k annually.
+          - Pioneered the architecture design and development of a legal collaboration platform used by thousands of users daily.
+          - Created an OCR document scanning process that analyzed and extracted data from hundreds of documents per hour.
+          - Architected highly available AWS infrastructure using Kubernetes and Docker that could be deployed within minutes.
+          - Orchestrated development workflows, and documentation guidelines resulting in efficient feature development.
+          - Coordinated with UI/UX team to implement innovative collaboration features boosting user engagement by 35%.
 
       - role: Senior Software Engineer
         time: 2013 - 2014
         company: BeQuick
         details: |
-          - Developed and designed JSON APIs as a backend for new mobile virtual network operator platform by determining best datasets, writing code and database queries, and optimization reducing average response times from 1 second to 300 milliseconds.
-          - Created common communication interface to be used between all the different network plugins that were to be implemented reducing code required to implement a new carrier by 75%.
+          - Created common communication interface RubyGem reducing code required to implement a new carrier by 75%.
+          - Designed JSON APIs connecting multiple services of the platform improving system interconnectivity.
+          - Optimize database queries reducing average response times from 1 second to 300 milliseconds.
 
-      - role: Senior Software Engineer & Chief Technology Officer
+      - role: Senior Software Engineer
         time: 2011 - 2013
         company: 383 Studio
         details: |
-          - Performed research and viability for new features used by 50 different construction firms, while working with stakeholders to design and implement new technologies that generated in 10 new clients.
-          - Ideated, innovated, and built platform from the ground up within 6 months, wrote iOS app that increased engagement and usability by 100%, designed infrastructure on AWS that reduced storage costs by 40%.
+          - Pioneered the design and development of a construction collaboration platform used by 50 construction firms.
+          - Worked with stakeholders to design and implement new technologies that generated in 10 new clients.
+          - Designed infrastructure on AWS that lowered storage costs by 40%.
 
       - role: Software Engineer
         time: 2008 - 2010
         company: Affinity Media
         details: |
-          - Constructed desktop application and game plugin that collected data from World of Warcraft while over 500k users played the game and wrote code that parsed and sorted data into database website viewed by over 3MM users.
-          - Monitored database usage and provided query optimization improvements that resulted in 23% efficiency gain.
-      
+          - Constructed desktop application and plugin that collected game data from World of Warcraft used by 500k users.
+          - Wrote code that parsed, imported, and normalized data into database website viewed by over 3MM users.
+          - Monitored database usage and provided query optimization that resulted in 23% efficiency gain.
+
       - role: Software Engineer
         time: 2006 - 2007
         company: SIPphone Inc.
         details: |
-          - Established and executed customer facing web-based marketing strategies, successfully increasing user count by 20% and implemented user interface for VOIP platform widely used by 10k users daily.
-          - Maintained website compatibility for over 20 different mobile device models increasing the target client base by over 50% and increased sales by 15%.
-      
+          - Maintained website compatibility for over 20 mobile device models increasing the target client base by 50%.
+          - Executed customer facing web-based marketing strategies successfully increasing user count by 20%.
+          - Implemented user interface for VOIP platform widely used by 10k users daily.
+
       - role: Linux System Administrator
         time: 2005 - 2006
         company: Technology Integration Group
         details: |
-          - Administered automation and shell scripts that effectively reduced manual workloads by 30% and promptly implemented system monitoring and alerting that reduced outage time to response by 50%.
+          - Administered automation and shell scripts that effectively reduced manual workloads by 30%.
+          - Setup system monitoring and alerting that streamlined response times by 50%.
 
 skills:
     title: Technical Skills
@@ -91,7 +100,7 @@ skills:
       - Elasticsearch
       - Redis
       - Javascript / Vue.js
-      - CSS / SCSS
+      - CSS / Tailwind
       - Shell Scripting
       - Git / Github
       - CI / CD
